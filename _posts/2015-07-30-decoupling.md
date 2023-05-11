@@ -11,11 +11,11 @@ smaller repositories. Why? And why should developers and users care?
 The OME development workflow has been following a single, integrated approach
 for the last couple of years. This means that all components of the OME stack,
 including
-[OMERO](http://www.openmicroscopy.org/site/products/omero) and
-[Bio-Formats](http://www.openmicroscopy.org/site/products/bio-formats)
+[OMERO]({{ site.baseurl }}/site/products/omero) and
+[Bio-Formats]({{ site.baseurl }}/site/products/bio-formats)
 are versioned globally and released simultaneously. The only notable exception
 to this rule is the
-[OME Data Model](https://www.openmicroscopy.org/site/support/ome-model/)
+[OME Data Model]({{ site.baseurl }}/site/support/ome-model/)
 which is released on its own release cycle to be consumed by major versions of
 Bio-Formats and OMERO.
 
@@ -42,10 +42,10 @@ included as a Git submodule of the OMERO source code since
 As of OMERO 5.1.3, Bio-Formats is now treated as any other dependency of 
 OMERO, like Hibernate or Spring. This means:
 
-- Bio-Formats is now released independently of OMERO as was the case for [Bio-Formats 5.1.3](https://www.openmicroscopy.org/community/viewtopic.php?f=11&t=7859) and [OMERO 5.1.3](https://www.openmicroscopy.org/community/viewtopic.php?f=11&t=7869).
+- Bio-Formats is now released independently of OMERO as was the case for [Bio-Formats 5.1.3]({{ site.baseurl }}/community/viewtopic.php?f=11&t=7859) and [OMERO 5.1.3]({{ site.baseurl }}/community/viewtopic.php?f=11&t=7869).
 - Bio-Formats source code is no longer embedded either directly or via a submodule.
 - Bio-Formats is no longer built as part of the
-  [OMERO build system](http://www.openmicroscopy.org/site/support/omero5.1/developers/build-system.html).
+  [OMERO build system]({{ site.baseurl }}/site/support/omero5.1/developers/build-system.html).
   Instead, the JARs are referenced by their version and consumed from the
   [OME artifactory](http://artifacts.openmicroscopy.org/) as part of the build.
 
@@ -66,6 +66,6 @@ same split process. Amongst potential decoupling candidates are:
 We hope this change is useful for the community. One of the great things about
 open source software is the ability to learn, change, and adapt, especially as
 we integrate feedback from the
-[community](https://www.openmicroscopy.org/site/community/). We welcome
+[community]({{ site.baseurl }}/site/community/). We welcome
 comments from users and developers, and any ideas on how we can continue to
 improve the tools we deliver.

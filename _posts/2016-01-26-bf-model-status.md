@@ -11,7 +11,7 @@ current and upcoming work on the Model and the Bio-Formats project.
 
 ## Current Bio-Formats development focus
 
-The release of [5.1.7 back in December](http://www.openmicroscopy.org/site/news/release-of-bio-formats-5.1.7)
+The release of [5.1.7 back in December]({{ site.baseurl }}/site/news/release-of-bio-formats-5.1.7)
 is likely to be the last regularly planned release of Bio-Formats 5.1.x.
 Bio-Formats development has now shifted to focus on 5.2.0 in the develop
 branch. There are two points for Bio-Formats users to note:
@@ -70,7 +70,7 @@ Instruments SPE. We are currently working on the readers for these and would
 greatly appreciate sample files if you have any to help us with testing (you
 can submit files via our
 [QA system](http://qa.openmicroscopy.org.uk/qa/upload/) or get in touch on our
-[mailing lists](https://www.openmicroscopy.org/site/community/mailing-lists)
+[mailing lists]({{ site.baseurl }}/site/community/mailing-lists)
 for details on how to submit larger files).
 
 While the core team won't be focusing on any other readers for 5.2.0, we

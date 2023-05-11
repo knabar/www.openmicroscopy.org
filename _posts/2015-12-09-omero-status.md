@@ -10,7 +10,7 @@ discussion about our future development plans and aspirations.
 
 ## Releases, maintenance and deprecation
 
-With the [release of OMERO 5.2.0](https://www.openmicroscopy.org/community/viewtopic.php?f=11&t=7922) at
+With the [release of OMERO 5.2.0]({{ site.baseurl }}/community/viewtopic.php?f=11&t=7922) at
 the beginning of November 2015, the current situation with OMERO versions is
 as follows:
 
@@ -70,7 +70,7 @@ aimed at improving and expanding OME’s support for the heterogeneous metadata
 which is the foundation of much of modern science (an early vision of the
 requirements that drive our work was [published by Jim Gray and colleagues](http://research.microsoft.com/pubs/64537/tr-2005-10.pdf)).
 Comments welcome on our [Trello boards](https://trello.com/ome) or via our
-other [community channels](http://www.openmicroscopy.org/community/).
+other [community channels]({{ site.baseurl }}/community/).
 
 In the shorter term, the bulk of our work involves improvements to metadata
 handling, especially for regions of interest (ROIs) and analytic metadata. We

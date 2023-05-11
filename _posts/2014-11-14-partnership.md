@@ -14,11 +14,11 @@ with the community to build Bio-Formats.
 
 ## For the community
 
-[Bio-Formats](http://www.openmicroscopy.org/site/products/bio-formats) is a
+[Bio-Formats]({{ site.baseurl }}/site/products/bio-formats) is a
 Java library, available under an open source license
 ([GPL version 2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html)). It
 plugs into many other
-[software tools](http://www.openmicroscopy.org/site/support/bio-formats5/users/index.html)
+[software tools]({{ site.baseurl }}/site/support/bio-formats5/users/index.html)
 including ImageJ, Matlab, KNIME, and CellProfiler.
  
 We distribute Bio-Formats under an open source license so that the technology
@@ -76,7 +76,7 @@ reference for our work.
 ## On Convergence and Diversity…
 
 Rarely a day goes by where the OME Team is not contacted for
-[some issue or problem](https://www.openmicroscopy.org/community/viewforum.php?f=13)
+[some issue or problem]({{ site.baseurl }}/community/viewforum.php?f=13)
 with the use of Bio-Formats. In 2014, most problems involve a file format we
 attempt to support but currently mishandle. Sometimes this is a mistake on our
 part—a bug—but often we are not aware of a certain usage of metadata.
@@ -135,7 +135,7 @@ Bio-Formats to support their scientific progress. However, we now require any
 request to be supplemented with example files. Without these we simply cannot
 authoritatively perform any testing or updates. Of course we always welcome
 code submissions or guidance on the nature of the problem. Indeed
-[several individuals](https://www.openmicroscopy.org/site/about/ome-contributors)
+[several individuals]({{ site.baseurl }}/site/about/ome-contributors)
 have contributed to Bio-Formats over the years. These contributions are highly
 valued as they slowly spread the expertise of working with Bio-Formats. The
 next step in this progression will be to distribute the burden of supporting
@@ -156,7 +156,7 @@ priority for us — adding support for units or a whole new imaging domain are
 examples. Inevitably, there are times when updates to PFFs take much longer
 than we would like. Anyone who makes a request to the Bio-Formats development
 team can be cc’d on the tickets that
-[track our progress](https://www.openmicroscopy.org/community/viewforum.php?f=13)
+[track our progress]({{ site.baseurl }}/community/viewforum.php?f=13)
 and is always welcome to contact the team to check on status. Repeated
 requests from a single individual do count, but we are strongly influenced by
 similar requests from multiple individuals.
@@ -165,7 +165,7 @@ similar requests from multiple individuals.
 
 As we work to provide a single common access mechanism for scientific image
 data, please do [send us examples](http://qa.openmicroscopy.org.uk/qa/upload/)
-of the file formats you are using, [get involved](http://www.openmicroscopy.org/site/support/contributing/index.html)
+of the file formats you are using, [get involved]({{ site.baseurl }}/site/support/contributing/index.html)
 if you can — help us test, send us feedback, or even develop new solutions.
 Building a strong consortium of academic, industrial and commercial partners
 is the best way to make the project successful and useful for our whole

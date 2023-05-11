@@ -26,7 +26,7 @@ implementation would entail.
 Unfortunately, the result of all this work has been the conclusion that we
 simply do not have the resources to prioritize delivering a complete solution
 for this format. This is not the only format we have reached this conclusion
-about. For example, support for [3i Slidebook 6 files](http://www.openmicroscopy.org/site/support/bio-formats/formats/3i-slidebook.html) was only added to
+about. For example, support for [3i Slidebook 6 files]({{ site.baseurl }}/site/support/bio-formats/formats/3i-slidebook.html) was only added to
 Bio-Formats last May when [3i](https://www.intelligent-imaging.com) committed
 to developing the reader themselves.
 Obviously, we are very grateful for this, but that doesn’t change the fact

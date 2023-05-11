@@ -18,7 +18,7 @@ Bio-Formats improvements include:
     - Z and T dimensions for InCell 6000 plates
 - Export of RGB images in ImageJ
 
-** Note that if you want to take advantage of these improvements to ND2 file support in OMERO, you will need to upgrade your server to 5.0.3 as well as your clients. If you find any bugs, we encourage you to submit the files that are not handled correctly via our [QA system](https://www.openmicroscopy.org/qa2/qa/upload/).**
+** Note that if you want to take advantage of these improvements to ND2 file support in OMERO, you will need to upgrade your server to 5.0.3 as well as your clients. If you find any bugs, we encourage you to submit the files that are not handled correctly via our [QA system]({{ site.baseurl }}/qa2/qa/upload/).**
 
 For OMERO users, this release includes:
 
@@ -45,7 +45,7 @@ For system administrators, changes include:
 - a large redesign of the Sphinx documentation for system administrators including sections on search and performance configuration and glossary of the server configuration properties
 - several CLI fixes including the -g option for import as, better support for non-ASCII characters
 
-** [Re-indexing](https://www.openmicroscopy.org/site/support/omero5.0/sysadmins/search.html) your server may significantly improve the search results.**
+** [Re-indexing]({{ site.baseurl }}/site/support/omero5.0/sysadmins/search.html) your server may significantly improve the search results.**
 
 Note that the generated Apache 2.2 config contains a Rewrite rule `(RewriteRule ^/?$ /omero/ [R])` which no longer works (404 error), possibly due to changes in the OMERO.web custom prefix auto-configuration. Removing the rule fixes things.
 
@@ -58,6 +58,6 @@ The software is available from
 and
 [Bio-Formats archived downloads](https://downloads.openmicroscopy.org/bio-formats/5.0.3/)
 
-For information on upgrading your server, see [server upgrade](https://www.openmicroscopy.org/site/support/omero5.0/sysadmins/server-upgrade.html)
+For information on upgrading your server, see [server upgrade]({{ site.baseurl }}/site/support/omero5.0/sysadmins/server-upgrade.html)
 
 For any problems or comments, please use the [OME Forums or mailing lists]({{ site.baseurl }}/support/)

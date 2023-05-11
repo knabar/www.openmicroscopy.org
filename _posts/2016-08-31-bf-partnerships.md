@@ -55,14 +55,14 @@ SlideBook software. Maintaining Bio-Formats support alongside the fast
 development of the SlideBook format and their multiple versions has also
 proven to be challenging. Over the last five years, developers in the 3i team
 have been building contact with the Bio-Formats development team to implement
-a [native solution to read SlideBook image formats](https://www.openmicroscopy.org/community/viewtopic.php?f=6&t=7653&p=14823&hilit=slidebook#p14823).
+a [native solution to read SlideBook image formats]({{ site.baseurl }}/community/viewtopic.php?f=6&t=7653&p=14823&hilit=slidebook#p14823).
 
 A first version of a native Slidebook reader for 32-bit Windows was integrated
 and released as part of
-[Bio-Formats 5.1.2](https://www.openmicroscopy.org/community/viewtopic.php?f=11&t=7822).
+[Bio-Formats 5.1.2]({{ site.baseurl }}/community/viewtopic.php?f=11&t=7822).
 Following discussions with members of the 3i team who attended the 2016 OME
 Users Meeting, this reader has been separated from the Bio-Formats source code
-and is completely [maintained by the 3i team](http://www.openmicroscopy.org/info/slidebook).  As of Bio-Formats 5.2.0,
+and is completely [maintained by the 3i team]({{ site.baseurl }}/info/slidebook).  As of Bio-Formats 5.2.0,
 the 3i reader became fully pluggable into Bio-Formats e.g. via ImageJ/Fiji.
 The 3i library is the first Bio-Formats reader where the development, quality
 control and release processes are fully managed by a third-party.

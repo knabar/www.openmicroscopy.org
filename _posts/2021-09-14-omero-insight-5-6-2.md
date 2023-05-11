@@ -12,7 +12,7 @@ See [Changelog](https://github.com/ome/omero-insight/blob/v5.6.2/CHANGELOG.md) f
 ### Installing the Software:
 
 OMERO.insight 5.6.2 is available from our
-[Downloads](https://www.openmicroscopy.org/omero/downloads/) page.
+[Downloads]({{ site.baseurl }}/omero/downloads/) page.
 
 You are invited to discuss this announcement on
 [the image.sc forum](https://forum.image.sc/).

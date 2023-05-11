@@ -55,7 +55,7 @@ the image's ROIs.
 ## OMERO.server and scripts
 
 Users of the [Blitz
-API](http://www.openmicroscopy.org/site/support/omero5.2/developers/Modules/Api.html)
+API]({{ site.baseurl }}/site/support/omero5.2/developers/Modules/Api.html)
 are well aware that it allows a wider range of actions than the
 graphical clients support. Those exploring how Folders are represented
 will see that a Folder has a `parentFolder` property for its parent, if

@@ -5,7 +5,7 @@ tags: tech-issues
 categories: blog
 ---
 
-A user [reported last week](https://www.openmicroscopy.org/community/viewtopic.php?f=5&t=7856) that
+A user [reported last week]({{ site.baseurl }}/community/viewtopic.php?f=5&t=7856) that
 after a Java upgrade, it was no longer possible to connect to the OMERO server
 using OMERO.insight. Since then we’ve been looking into the issue. A fix is
 ready as well as a few steps for the future.

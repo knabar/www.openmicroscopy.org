@@ -26,7 +26,7 @@ Other updates include:
         * Imaris HDF - fix channel count detection
         * ICS export - fix writing of files larger than 2GB
 
-Full details can be found at [Bio-Formats version history](https://www.openmicroscopy.org/site/support/bio-formats5.1/about/whats-new.html)
+Full details can be found at [Bio-Formats version history]({{ site.baseurl }}/site/support/bio-formats5.1/about/whats-new.html)
 
 The software is available at [archived downloads](https://downloads.openmicroscopy.org/bio-formats/5.1.1) and the C++ implementation is available from [archived downloads](https://downloads.openmicroscopy.org/bio-formats-cpp/5.1.1/)
 
@@ -56,6 +56,6 @@ Other updates include:
 
 The software is available at [archived downloads](https://downloads.openmicroscopy.org/omero/5.1.1)
 
-Upgrade information is at the [server upgrade page](https://www.openmicroscopy.org/site/support/omero5.1/sysadmins/server-upgrade.html).
+Upgrade information is at the [server upgrade page]({{ site.baseurl }}/site/support/omero5.1/sysadmins/server-upgrade.html).
 
 Any problems or comments, please use the [OME Forums or mailing lists]({{ site.baseurl }}/support/).

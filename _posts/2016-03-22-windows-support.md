@@ -40,7 +40,7 @@ with core development work. There’s always a tension between rapid development
 of new functionality and robust, reliable testing.
 
 The focus of our OMERO 5.2.1 release was on deployment, following feedback
-from system administrators (e.g. [this forum thread](https://www.openmicroscopy.org/community/viewtopic.php?f=5&t=7924)).
+from system administrators (e.g. [this forum thread]({{ site.baseurl }}/community/viewtopic.php?f=5&t=7924)).
 We improved our server installation guides and OMERO.web deployment
 documentation, and provided stepwise deployment scripts, e.g. for CentOS 6
 with

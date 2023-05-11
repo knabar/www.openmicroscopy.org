@@ -6,7 +6,7 @@ intro-blurb: The OME team is pleased to announce the launch of the new website
 
 We are excited to launch the new, completely rebuilt and redesigned OME 
 website. The new website is available at the URL you all know so well:
-[https://www.openmicroscopy.org](https://www.openmicroscopy.org).
+[https://www.openmicroscopy.org]({{ site.baseurl }}).
 
 The updated site includes a full redesign of the styling and improved
 experience for mobile and tablets. The main content has been reorganized to be

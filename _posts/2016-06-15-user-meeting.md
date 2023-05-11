@@ -10,7 +10,7 @@ didn’t get to all the sessions you wanted to, we have a range of content on
 our downloads site--notes, slides and even movie versions of workshop
 presentations--available to browse from
 [downloads.openmicroscopy.org/presentations/2016/Users-Meeting/](http://downloads.openmicroscopy.org/presentations/2016/Users-Meeting/) or
-linked via the [programme page](http://www.openmicroscopy.org/site/community/minutes/meetings/11th-annual-users-meeting-2016) if there is specific content you’re interested in.
+linked via the [programme page]({{ site.baseurl }}/site/community/minutes/meetings/11th-annual-users-meeting-2016) if there is specific content you’re interested in.
 
 One of the things the user meeting is really valuable for is hearing about
 what the rest of the community is doing with our tools so the
@@ -24,15 +24,15 @@ institutions to international research collaborations.
 It’s always great to hear positive stories from the community rather than only
 getting feedback when something needs fixing. To this end, we’d always invite
 you to make use of the
-[mailing lists](http://www.openmicroscopy.org/site/community/mailing-lists)
-and [forums](https://www.openmicroscopy.org/community/) to discuss the
+[mailing lists]({{ site.baseurl }}/site/community/mailing-lists)
+and [forums]({{ site.baseurl }}/community/) to discuss the
 challenges you’re working on even if you don’t necessarily need help. We’d
 also be keen to feature your stories on this blog if you’d like to submit
 something longer e.g. with screenshots - you can open a PR at
 [github.com/ome/blog/](https://github.com/ome/blog/) or just drop us
 an email and we’ll get back to you for details. Did you know we maintain a
 list of publications using our tools on
-[www.openmicroscopy.org/site/about/publications](http://www.openmicroscopy.org/site/about/publications)? We are always happy to hear of new citations
+[www.openmicroscopy.org/site/about/publications]({{ site.baseurl }}/site/about/publications)? We are always happy to hear of new citations
 to add.
 
 An even newer addition this year was the Unconference sessions on the third

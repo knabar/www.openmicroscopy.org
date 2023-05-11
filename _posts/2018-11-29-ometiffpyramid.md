@@ -58,7 +58,7 @@ an OMERO server.
 
 ![Pyramidal OME-TIFF](/images/pyramidal-ome-tiff.png){:width="100%"}
 *WSIs stored as pyramidal OME-TIFF explored visually using
-[OMERO.iviewer Web viewer](https://www.openmicroscopy.org/omero/iviewer/)*
+[OMERO.iviewer Web viewer]({{ site.baseurl }}/omero/iviewer/)*
 
 
 Since then, we focused our efforts on the generation of pyramidal OME-TIFF

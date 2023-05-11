@@ -9,9 +9,9 @@ categories: blog
 </script>
 
 The OME Data Model defines a
-[Shape.Transform](https://www.openmicroscopy.org/Schemas/Documentation/Generated/OME-2015-01/ROI_xsd.html#Shape_Transform)
+[Shape.Transform]({{ site.baseurl }}/Schemas/Documentation/Generated/OME-2015-01/ROI_xsd.html#Shape_Transform)
 element with an
-[AffineTransform](https://www.openmicroscopy.org/Schemas/Documentation/Generated/OME-2015-01/ROI_xsd.html#AffineTransform)
+[AffineTransform]({{ site.baseurl }}/Schemas/Documentation/Generated/OME-2015-01/ROI_xsd.html#AffineTransform)
 type that is used to transform a Shape's position in the image in
 various ways: scaling, rotations and more. These transformations are
 performed within the two dimensions of the image's *x*, *y* plane. In
@@ -101,14 +101,14 @@ approach in computational geometry and works well.
 ## ROI transformations in OMERO 5.2
 
 In OMERO 5.2 the
-[Shape](https://www.openmicroscopy.org/site/support/omero5.2/developers/Model/EveryObject.html#shape).transform
+[Shape]({{ site.baseurl }}/site/support/omero5.2/developers/Model/EveryObject.html#shape).transform
 property uses a single string to represent transformations. Historically
 a variety of formats have been used for this string, most from the World
 Wide Web Consortium's [Scalable Vector
 Graphics](https://www.w3.org/TR/SVG/coords.html#TransformAttribute)
 (SVG), anything from `"none"` to `"rotate (12.000 262.000 174.000)"`.
 Unfortunately [OMERO
-clients](https://www.openmicroscopy.org/site/support/omero5.2/developers/GettingStarted/AdvancedClientDevelopment.html)
+clients]({{ site.baseurl }}/site/support/omero5.2/developers/GettingStarted/AdvancedClientDevelopment.html)
 must thus bear the burden of parsing the possible string formats simply
 to be able to determine a ROI's position on the image. From the example
 illustrated in the previous section, given a Point at (40, 85) with
